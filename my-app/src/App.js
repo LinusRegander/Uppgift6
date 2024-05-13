@@ -1,5 +1,4 @@
 import React from 'react';
-import MoveList from '../src/components/MoveList';
 import MovieForm from '../src/components/MovieForm';
 
 const Home = () => {
@@ -17,7 +16,6 @@ const Home = () => {
 
           <h1>Min filmlista</h1>
 
-          <MoveList></MoveList>
           <MovieForm></MovieForm>
       </div>
   );
